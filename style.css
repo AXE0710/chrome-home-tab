@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+body {
+    background-color: #000000;
+    background-image: url("https://picsum.photos/1700/1000");
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    /* background: fixed; */
+    /* background-size: fit; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    mask: url("https://picsum.photos/1700/1000");
+
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: repeat;
+}
+.title{
+    /* color: #ffffff; */
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Satisfy', cursive;
+    /* border: #000000 2px solid; */
+    /* padding: 10px; */
+    /* background-color: rgba(0, 0, 0, 0.5);? */
+
+}
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Satisfy', cursive;
+    text-shadow: red 2px 2px;
+    text-shadow: 0px 0px 10px #0004ff;
+
+}
+
+.pbox{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: royalblue; */
+
+}
+.box{
+    width: 500px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    /* background-color: royalblue; */
+    box-shadow: 0px 0px 10px #00ff0d;
+}
+.link{
+    width: 450px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex; 
+    /* align-items: le; */
+    flex-direction: row;
+    /* background-color: royalblue; */
+    box-shadow: 0px 0px 10px #ff00ea;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+.icon{
+    width: 75px;
+    height: 45px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    /* box-shadow: 0px 0px 10px #09ff00; */
+    /* border-width: 2px;
+    border-color: red; */
+    display: flex;
+    margin-right: 0px;
+}
+.text{
+    color: white;
+    text-decoration: inherit;
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+    margin-left: 5px;
+}
+.G{
+    color: blue;
+}
+.o{
+    color: red;
+}
+.O{
+    color: orange;
+}
+.L{
+    color: green;
+}
+.E{
+    color: red;
+}
+.gpt {
+    color: blueviolet;
+    text-shadow: 0px 0px 10px #8917d4;
+}
+.tube {
+    color: red;
+    text-shadow: 0px 0px 10px #ff00f7;
+}
+.over {
+    color: orange;
+    text-shadow: 0px 0px 10px #ff9a00;
+}
+.hack {
+    color: green;
+    text-shadow: 0px 0px 5px #00ff0d;
+}
+.work {
+    color: rgb(4, 0, 255);
+    text-shadow: 0px 0px 10px #00b7ff;
+}
+.code {
+    color: rgb(0, 255, 13);
+    text-shadow: 0px 0px 10px #c8ff00;
+}
+.git {
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px #ff00f7;
+}
